@@ -16,46 +16,71 @@
     </header>
     <nav>
         <a href="#">Inicio</a>
-        <a href="#">Quienes Somos</a>
-        <a href="#">Dónde estamos</a>
-        <a href="#">Contacto</a>
+        <a href="#quienes-somos">Quienes Somos</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#contacto">Contacto</a>
     </nav>
     <section id="quienes-somos">
-        <h1 class="titulo">
-            Quienes somos
-        </h1>
+        <h1 class="titulo">Quienes Somos</h1>
         <div id="contenedor-quienes">
             <div id="der">
-                <img src="images/equipo.jpg" alt="">
+                <img src="images/equipo.jpg" alt="Nuestro equipo">
             </div>
             <div id="izqu">
-                <h1>Un equipo joven y 
-                    preparado para el futuro
-                </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita illo quidem reprehenderit assumenda nihil, consequatur dolores ipsum harum tenetur soluta, quos ducimus adipisci incidunt sunt saepe delectus quod vero eveniet?</p>
+                <h2>Un equipo joven y preparado para el futuro</h2>
+                <p>Somos una empresa innovadora dedicada al desarrollo de soluciones tecnológicas adaptadas a las necesidades del presente y del futuro. Nuestro equipo está formado por profesionales apasionados por la tecnología y el diseño, comprometidos en ofrecer productos de alta calidad.</p>
             </div>
-
         </div>
     </section>
+
+    <section id="portafolio">
+        <h1 class="titulo">Portafolio</h1>
+        <div class="proyectos">
+            <div class="proyecto">
+                <img src="images/proyecto1.jpg" alt="Proyecto 1">
+                <h3>Edificio Argáez</h3>
+                <p>Diseñado por el Taller de Arquitectura X - Alberto Kalach, destaca por su diseño innovador y armonía con el entorno urbano.</p>
+            </div>
+            <div class="proyecto">
+                <img src="images/proyecto2.jpg" alt="Proyecto 2">
+                <h3>Proyecto Río Tiber</h3>
+                <p>Una colaboración entre Taller David Dana y Cherem Arquitectos, combina funcionalidad y estética contemporánea.</p>
+            </div>
+        </div>
+    </section>
+
     <section id="clientes">
-        <h1 class="titulo">
-            Opiniones de nuestros clientes
-        </h1>
+        <h1 class="titulo">Opiniones de nuestros clientes</h1>
         <div id="contenedor-clientes">
             <div class="cliente">
-                <img src="images/cara1.avif" alt="">
+                <img src="images/cara1.avif" alt="Cliente 1">
                 <p>"Son los mejores"</p>
             </div>
             <div class="cliente">
-                <img src="images/cara2.avif" alt="">
+                <img src="images/cara2.avif" alt="Cliente 2">
                 <p>"Siempre están cuando se les llama"</p>
             </div>
             <div class="cliente">
-                <img src="images/cara3.avif" alt="">
+                <img src="images/cara3.avif" alt="Cliente 3">
                 <p>"Tienen la mejor relación calidad/precio"</p>
             </div>
-        </div>                 
+        </div>
     </section>
+
+    <section id="contacto">
+        <h1 class="titulo">Contacto</h1>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
     <footer>
         <div class="caja-inferior">
             <h2>Enlaces</h2>
@@ -75,3 +100,4 @@
     </footer>
 </body>
 </html>
+
