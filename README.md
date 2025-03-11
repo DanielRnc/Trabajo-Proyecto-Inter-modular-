@@ -57,9 +57,7 @@ git clone https://github.com/tu-usuario/Trabajo-Proyecto-Inter-modular-.git
 3. Realiza tus cambios y súbelos.  
 4. Crea un Pull Request para revisar y fusionar tus cambios.
 
----
 
-¡Gracias por visitar este proyecto! 
 
 
 
